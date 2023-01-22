@@ -56,3 +56,13 @@ Results
     ...
 ]
 ```
+
+### Testing
+
+Run `cp .env.example .env` and fill in the values for your store.
+
+Run `npm run test` to run the tests.
+
+### Contributing
+
+Please feel free to submit a pull request if you have any improvements or bug fixes.
