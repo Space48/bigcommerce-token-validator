@@ -1,7 +1,7 @@
 import BigCommerce from 'node-bigcommerce';
 import { BigCommercePermission } from './types/BigCommercePermission';
 import { BigCommercePermissionEndpoints } from './endpoints';
-
+export * from './types/BigCommercePermission';
 
 
 const getClient = (creds: {
