@@ -1,2 +1,6 @@
 spec
 .env
+.env.sample
+.github
+jest.config.jest.js
+README.md
