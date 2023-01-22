@@ -1,6 +1,6 @@
 ## BigCommerce Token Permissions Audit Tool
 
-[![Node.js CI](https://github.com/grant-unwin/bigcommerce-token-validator/actions/workflows/node.js.yml/badge.svg)](https://github.com/grant-unwin/bigcommerce-token-validator/actions/workflows/node.js.yml)
+[![Node.js CI](https://github.com/space48/bigcommerce-token-validator/actions/workflows/node.js.yml/badge.svg)](https://github.com/space48/bigcommerce-token-validator/actions/workflows/node.js.yml)
 
 This tool is designed to help you audit your BigCommerce store's token permissions. It will generate a report that shows which endpoints are accessible with the token you provide.
 
@@ -8,14 +8,18 @@ You can use this tool to determine which permissions are carried by your token, 
 
 ### Install
 
-Run `npm install @grant-unwin/bigcommerce-token-validator` to install the package.
+Add the following line to your .nmprc file:
+
+`@space48:registry=https://npm.pkg.github.com/space48`
+
+Run `npm install @space48/bigcommerce-token-validator` to install the package.
 
 Then, import the `DoAudit` function and pass it your credentials and the permissions you want to test.
 ### Usage
 
 
 ```js
-import { DoAudit, BigCommercePermission } from '@grant-unwin/bigcommerce-token-validator';
+import { DoAudit, BigCommercePermission } from '@space48/bigcommerce-token-validator';
 
 const creds = {
     clientId: '',

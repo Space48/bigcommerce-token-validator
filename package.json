@@ -1,5 +1,5 @@
 {
-  "name": "@grant-unwin/bigcommerce-token-validator",
+  "name": "@space48/bigcommerce-token-validator",
   "version": "1.0.6",
   "description": "",
   "main": "dist/index.js",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/grant-unwin/bigcommerce-token-validator.git"
+    "url": "git+https://github.com/space48/bigcommerce-token-validator.git"
   },
   "author": "Grant",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/grant-unwin/bigcommerce-token-validator/issues"
+    "url": "https://github.com/space48/bigcommerce-token-validator/issues"
   },
-  "homepage": "https://github.com/grant-unwin/bigcommerce-token-validator#readme",
+  "homepage": "https://github.com/space48/bigcommerce-token-validator#readme",
   "devDependencies": {
     "@types/jest": "^29.2.6",
     "@types/node": "^18.11.18",
