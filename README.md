@@ -1,6 +1,8 @@
 ## BigCommerce Token Permissions Audit Tool
 
-[![Node.js CI](https://github.com/space48/bigcommerce-token-validator/actions/workflows/node.js.yml/badge.svg)](https://github.com/space48/bigcommerce-token-validator/actions/workflows/node.js.yml)
+[![Node.js CI](https://github.com/Space48/bigcommerce-token-validator/actions/workflows/node.js.yml/badge.svg)](https://github.com/Space48/bigcommerce-token-validator/actions/workflows/node.js.yml)
+
+[![Node.js Package](https://github.com/Space48/bigcommerce-token-validator/actions/workflows/npm-publish-github-packages.yml/badge.svg)](https://github.com/Space48/bigcommerce-token-validator/actions/workflows/npm-publish-github-packages.yml)
 
 This tool is designed to help you audit your BigCommerce store's token permissions. It will generate a report that shows which endpoints are accessible with the token you provide.
 
